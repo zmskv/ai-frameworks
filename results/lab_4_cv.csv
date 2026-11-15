@@ -1,0 +1,9 @@
+lab,algorithm,task,configuration,features,params,fold_1,fold_2,fold_3,mean,std,selected,base
+4,Случайный лес,classification,Исходный лес,base,"{""max_features"": ""sqrt"", ""min_samples_leaf"": 1, ""n_estimators"": 48}",0.9532922400611621,0.9486085853751914,0.9467726689522544,0.9495578314628693,0.003361845172261015,True,True
+4,Случайный лес,classification,Крупнее листья,base,"{""max_features"": ""sqrt"", ""min_samples_leaf"": 3, ""n_estimators"": 48}",0.9428675799086759,0.9333292682926829,0.9442859181052932,0.9401609221022174,0.005958736538897341,False,False
+4,Случайный лес,classification,Доля признаков 65%,base,"{""max_features"": 0.65, ""min_samples_leaf"": 3, ""n_estimators"": 48}",0.9482959668209413,0.9435815935852054,0.9367298258247446,0.9428691287436305,0.005815892794647761,False,False
+4,Случайный лес,classification,Добавлены признаки,extra,"{""max_features"": 0.65, ""min_samples_leaf"": 3, ""n_estimators"": 48}",0.9482959668209413,0.9482831274531051,0.934592745022971,0.943723946432339,0.007907854993370626,False,False
+4,Случайный лес,regression,Исходный лес,base,"{""max_features"": 1.0, ""min_samples_leaf"": 1, ""n_estimators"": 48}",0.5636013909595814,0.8657193279482844,1.4871492031611173,0.972156640689661,0.4708840796982471,True,True
+4,Случайный лес,regression,Крупнее листья,base,"{""max_features"": 1.0, ""min_samples_leaf"": 4, ""n_estimators"": 48}",0.8205644675257014,1.445616287866082,1.8208638937188115,1.3623482163701983,0.5053215949358874,False,False
+4,Случайный лес,regression,Доля признаков 65%,base,"{""max_features"": 0.65, ""min_samples_leaf"": 4, ""n_estimators"": 48}",1.3022037116802008,1.7609292850248088,1.96672170156228,1.6766182327557633,0.3401871615306273,False,False
+4,Случайный лес,regression,Добавлены признаки,extra,"{""max_features"": 0.65, ""min_samples_leaf"": 4, ""n_estimators"": 48}",1.7803713720922383,1.932052458724651,2.596847564469471,2.1030904650954536,0.4342796828049638,False,False
